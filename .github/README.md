@@ -90,4 +90,4 @@ In place of a legal notice, here is a blessing:
 
 ## Header Example Video Audio Source
 
-Skream - Untitled, reconstructed by the TN Tech Tuba Ens, and Jim Self.
+Skream - Untitled, reconstructed from the TN Tech Tuba Ens, and Jim Self.
