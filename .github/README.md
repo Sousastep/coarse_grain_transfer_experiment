@@ -50,15 +50,15 @@ Each stage is its own CLI with `--help`. `work/plan.json` is human-readable and 
 
 Pass these through `run.py --match "..." --synth "..."`, and use `--from match` to skip re-analysis.
 
-- `--jump-cost` (match, default 0.6): cost of jumping elsewhere in the corpus instead of continuing the current source passage. Raise it (2–5) for longer Four Tet phrases, or set it to 0 for maximum glitch.
-- `--w-chroma`, `--w-mfcc`, … (match): descriptor weights. Raise chroma to favour harmony and MFCC to favour timbre.
+- `--jump-cost` (match, default 0.6): cost of jumping elsewhere in the corpus instead of continuing the current source passage. Raise it (2–5) for longer phrases, or set it to 0 for maximum glitch.
+- `--w-chroma`, `--w-mfcc`, … (match): descriptor weights. Raise chroma to favor harmony and MFCC to favor timbre.
 - `--max-transpose` (match): semitone range for resampling grains; 0 disables it.
-- `--jitter 0.3 --seed N` (match): randomised variations.
+- `--jitter 0.3 --seed N` (match): randomized variations.
 - `--morph` (synth, default 0, off): >0 pulls the mosaic's spectral envelope toward the target, which tightens timing/dynamics but lets the original bleed through.
 - `--fade-in`, `--tail`, `--fade-order` (synth): grain fade lengths and smoothstep order (0 linear, 1 cubic, 2 smootherstep, 3 default).
 - `--loud-follow`, `--dry`, `--save-raw` (synth).
 
-## Measured against the target (Bach, Variatio 1)
+## Measured against the target (Bach, Variation 1)
 
 | | chroma cos | log-RMS corr | onset corr |
 |---|---|---|---|
