@@ -2,12 +2,14 @@
 
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://www.sousastep.quest/links/)
 
+example audio output: Skream - Untitled, reconstructed by the TN Tech Tuba Ens, and Jim Self.
+https://github.com/user-attachments/assets/0bd35716-cc22-4913-b006-b3103ac2b4ad
+
 </div>
 
+<a href="#studio_microphone-claude-opus-55-medium-prompt">![rainbow](./media/rainbow.png)</a>
 
-<a href="#studio_microphone-introduction">![rainbow](./media/rainbow.png)</a>
-
-# :studio_microphone: Prompt
+# :studio_microphone: Claude Opus 5.5 Medium Prompt
 
 Let's create a few scripts that can do a sort of spectral-granular style transfer that reconstructs one song from a corpus of coarse grains built from a library of other music albums.
 
